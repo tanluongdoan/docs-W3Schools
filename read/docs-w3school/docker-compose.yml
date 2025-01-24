@@ -1,0 +1,8 @@
+services:
+  app:
+    container_name: docs-w3school
+    image: tanluongdoan/docs-w3school:2025-01-24
+    ports:
+      - "4502:80"
+    restart: always
+
